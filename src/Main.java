@@ -119,9 +119,7 @@ public class Main {
         int upMasha= (int) (masha*increasePercent);
         int upDenis= (int) (denis*increasePercent);
         int upKristina= (int) (kristina*increasePercent);
-       // int differenceMasha=upMasha*year-masha*year;
-        //int differenceDenis=upDenis*year-denis*year;
-        //int differenceKristina=upKristina*year-kristina*year;
+
 
         System.out.println("Маша теперь получает "+upMasha+" рублей. Годовой доход вырос на "+(upMasha*year-masha*year)+ " рублей");
         System.out.println("Денис теперь получает "+upDenis+" рублей. Годовой доход вырос на "+(upDenis*year-denis*year)+ " рублей");
